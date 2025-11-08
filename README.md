@@ -1,6 +1,6 @@
-# SS-MAPPO: Simulation-Supervised Multi-Agent Proximal Policy Optimization
+# SS-IPPO: Simulation-Supervised Multi-Agent Proximal Policy Optimization
 
-The **SS-MAPPO** project implements a simulation-supervised multi-agent reinforcement learning framework for traffic control. It focuses on training multiple reinforcement learning agents using the Proximal Policy Optimization (PPO) algorithm to optimize traffic flow in road intersections. The project uses a custom-built environment for multi-agent simulations, powered by the popular SUMO traffic simulator, and is based on Python 3.11.10.
+The **SS-IPPO** project implements a simulation-supervised multi-agent reinforcement learning framework for traffic control. It focuses on training multiple reinforcement learning agents using the Proximal Policy Optimization (PPO) algorithm to optimize traffic flow in road intersections. The project uses a custom-built environment for multi-agent simulations, powered by the popular SUMO traffic simulator, and is based on Python 3.11.10.
 
 The code is organized in several key components:
 
@@ -32,13 +32,13 @@ We recommend installing [Anaconda](https://www.anaconda.com/products/individual)
 1. Create a conda environment:
 
    ```bash
-   conda create -n ss-mappo python=3.11
+   conda create -n ss-ippo python=3.11
    ```
 
 2. Activate the environment:
 
    ```bash
-   conda activate ss-mappo
+   conda activate ss-ippo
    ```
 
 3. Install required dependencies:
